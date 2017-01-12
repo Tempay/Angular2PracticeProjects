@@ -1,6 +1,6 @@
 #Angular2 Practice Projects
 
-This is a repo for my Angular2 exercise projects, following [Udemy Course Learn Angular 2 Development By Building 12 Apps](https://www.udemy.com/learn-angular-2-development-by-building-10-apps).
+This is a repo for my Angular2 exercise projects, following [Udemy Course: Learn Angular 2 Development By Building 12 Apps](https://www.udemy.com/learn-angular-2-development-by-building-10-apps).
 
 All project do not contain node_modules folder! Please add such folder before running it.
 
