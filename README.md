@@ -12,4 +12,7 @@ Do not use this code for any business purpose.
 - Understood the basic construct of Angular2 App
 - Learned how to leverage some basic Angular2 features: Modules, Routers...
 
-### Project 2: Github Profile Searcher
+### Project 2: Github Searcher
+- Searching Git user profile by Git API
+- A single page application
+ 
