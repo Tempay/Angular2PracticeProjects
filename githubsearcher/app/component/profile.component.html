@@ -1,0 +1,54 @@
+<div class="row">
+  <div class="col-md-12">
+    <form class="well">
+      <input type="text" class="form-control" placeholder="Search User by Name..." [(ngModel)]="username" name="username" (keyup)="searchUser()">
+    </form>
+  </div>
+</div>
+
+<div *ngIf='user'>
+  <div id='UserNameAndInfo' class="panel panel-default">
+    <div class="panel-heading">{{user.name}}</div>
+    <div id='UserInfo' class="panel-body">
+      <div class="row">
+        <div class="col-sm-4">
+          <img class="img-thumbnail" src="{{user.avatar_url}}">
+        </div>
+        <div class="col-md-8">
+          <div class="stats">
+            <span class="label label-default">{{user.public_repos}} Public Repos</span>
+            <span class="label label-primary">{{user.public_gists}} Public Gists</span>
+            <span class="label label-success">{{user.followers}} Followers</span>
+            <span class="label label-info">{{user.following}} Following</span>
+          </div>
+            <br>
+            <ul class="list-group">
+              <li class="list-group-item"><strong>Git Name: </strong>{{user.login}}</li>
+              <li class="list-group-item"><strong>Bio: </strong>{{user.bio}}</li>
+              <li class="list-group-item"><strong>From: </strong>{{user.location}}</li>
+              <li class="list-group-item"><strong>Email: </strong>{{user.email}}</li>
+              <li class="list-group-item"><strong>Blog: </strong>{{user.blog}}</li>
+              <li class="list-group-item"><strong>Member Since: </strong>{{user.created_at}}</li>
+            </ul>
+            <a class="btn btn-info btn-block" href="{{user.html_url}}" target="_blank">Profile</a>
+        </div>
+    </div>
+    </div>
+  </div>
+  <div id="ReposDisplay" class="panel panel-default">
+    <div class="panel-heading">{{user.login}}'s Repos</div>
+      <div class="panel-body">
+        <div id="EachRepoPanel" *ngFor="let repo of repos" class="panel panel-default">
+          <div class="panel-heading">
+          <a href="{{repo.html_url}}" target="_blank">{{repo.name}} &nbsp;
+            <span class="label label-info">{{repo.watchers}} watchers</span>
+            <span class="label label-success">{{repo.forks}} forks</span>
+          </a>
+        </div>
+        <div *ngIf="repo.description" class="panel-body">
+          <div>{{repo.description}}</div>
+        </div>
+    </div>
+  </div>
+  </div>
+</div>
