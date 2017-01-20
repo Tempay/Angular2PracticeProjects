@@ -15,4 +15,7 @@ Do not use this code for any business purpose.
 ### Project 2: Github Searcher
 - Searching Git user profile by Git API
 - A single page application
- 
+
+### Project 3: Spotify Searcher
+- Spotify API
+- Angular Routers
