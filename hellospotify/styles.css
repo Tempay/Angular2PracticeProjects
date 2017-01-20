@@ -1,0 +1,51 @@
+.form-group {
+  margin-left: -15px;
+}
+
+.goSpotify {
+  float: right;
+  background: rgb(30, 215,96);
+}
+
+.btn-album {
+  background: rgb(30, 215,96);
+  color: white;
+  hover: grey;
+}
+
+.artist-thumb {
+  width:80px;
+  height: auto;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.artist-header {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px;
+}
+
+.album-well {
+  margin-bottom: 20px;
+  overflow:auto;
+  min-height: 400px;
+}
+
+.album {
+  text-align: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.album-thumb {
+  width:100%
+}
+
+.diving-line {
+  background-color: rgb(30, 215, 96);
+  min-height: 3px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
