@@ -28,4 +28,11 @@ export class AlbumComponent implements OnInit {
                   })
           });
   }
+
+  previewAlbum(link: string, name: string) {
+    var win = window.open(link, name, "height=15px, width=300px, top=500px, left=900px");
+    setTimeout(function() {
+      win.close()
+    }, 30000);
+  }
 }
