@@ -12,10 +12,18 @@ Do not use this code for any business purpose.
 - Understood the basic construct of Angular2 App
 - Learned how to leverage some basic Angular2 features: Modules, Routers...
 
-### Project 2: Github Searcher
+### Project 2: Color Previewer
+This is a single component Angular app that shows user the color they input. Based on [Angular QuickStart](https://github.com/angular/quickstart).
+css code credit: [Angular Academic](https://angular-academy.s3-us-west-1.amazonaws.com/styles/angular-academy-lessons-theme-v1.css).
+
+####Samples
+![sample1](https://github.com/Tempay/tempay.github.io/blob/master/img/color-previewer-1.PNG?raw=true)
+![sample2](https://github.com/Tempay/tempay.github.io/blob/master/img/color-previewer-2.PNG?raw=true)
+
+### Project 3: Github Searcher
 - Searching Git user profile by Git API
 - A single page application
 
-### Project 3: Spotify Searcher
+### Project 4: Spotify Searcher
 - Spotify API
 - Angular Routers
