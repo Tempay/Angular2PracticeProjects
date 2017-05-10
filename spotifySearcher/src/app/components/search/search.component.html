@@ -1,0 +1,30 @@
+<h1>Greeting to Spotify?</h1>
+<p class="lead">
+  Searching the most excited contents on Spotify, such as Artists, Albums, Tracks.... Yes, just here!<br />
+  The only thing you need is <strong>Hello! Spotify</strong>, Try it now:
+</p>
+<form id="searchForm">
+  <div class="form-group">
+    <div class="col-sm-5">
+      <input id="searchInput" class="form-control" type="text" placeholder="What's on Spotify?" [(ngModel)]="target" name="target" (keyup)="searchContent()">
+    </div>
+  </div>
+</form>
+
+<div *ngIf="result">
+  <div *ngFor="let res of result">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="search-res well">
+          <div>
+            <h4>{{res.name}} <a routerLink="/artist/{{res.id}}" type="button" class="btn btn-default goSpotify">Go Details</a></h4>
+          </div>
+          <div>
+            <strong>tags:</strong>
+            <span *ngFor="let gen of res.genres">{{gen}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
