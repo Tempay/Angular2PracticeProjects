@@ -18,6 +18,7 @@ css code credit: [Angular Academic](https://angular-academy.s3-us-west-1.amazona
 
 #### Samples
 ![sample1](https://github.com/Tempay/tempay.github.io/blob/master/img/color-previewer-1.PNG?raw=true)
+
 ![sample2](https://github.com/Tempay/tempay.github.io/blob/master/img/color-previewer-2.PNG?raw=true)
 
 ### Project 3: Github Searcher
