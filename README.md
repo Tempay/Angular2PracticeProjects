@@ -26,9 +26,9 @@ A useful tool for searching users in Github. You can get the information and rep
 
 #### Samples
 - Search Users
-![alt text](githubsearcher/src/img/gs_search.PNG)
+![alt text](githubsearcher/img/gs_search.PNG)
 
-![alt text](githubsearcher/src/img/gs_search_ag.PNG)
+![alt text](githubsearcher/img/gs_search_ag.PNG)
 
 - Repositories List
 ![alt text](githubsearcher/img/ag_search_list.PNG)
