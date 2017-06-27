@@ -57,5 +57,6 @@
     "@types/jasmine": "2.5.36"
   },
   "repository": {},
-  "main": "karma-test-shim.js"
+  "main": "karma-test-shim.js",
+  "engines" : { "node" : ">=0.10.3" },
 }
